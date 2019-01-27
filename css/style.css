@@ -1,0 +1,347 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: d0ccc1;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-logo {
+  display: flex;
+  align-items: center;
+}
+.name {
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+}
+.description {
+  margin: 9px;
+}
+.avatar {
+  width: 57px;
+  height: 57px;
+  background: url('https://pp.userapi.com/c845124/v845124987/1894c6/Z6w1oSIHgxU.jpg');
+  background-size: 100%;;
+  border-radius: 50%;
+  
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+  
+}
+.menu-button {
+  text-transform: uppercase;
+  font-weight: 800;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid #2b2a2c;
+  padding: 13px 22px;
+}
+.menu-list a {
+  text-decoration: none;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-right: 34px;
+  display: inline-block;
+  line-height: 1;
+  text-decoration:none;
+  cursor: pointer;
+}
+
+.menu-list a:after {
+  background-color: #2b2a2c;;
+  display: block;
+  content: "";
+  height: 3px;
+  width: 0%;
+ -webkit-transition: width .3s ease-in-out;
+  -moz--transition: width .3s ease-in-out;
+  transition: width .3s ease-in-out;
+}
+.menu-list a:hover:after,
+.menu-list a:focus:after {
+  width: 100%;
+}
+
+
+.menu-button:hover {
+  color: #fff;
+  background: #333;
+  tansition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -moz-transition: all .3s linear; 
+}
+
+.hero {
+  padding-top: 112px;
+  padding-bottom: 112px;
+  background: url('http://ipic.su/img/img7/fs/main-20.1548589867.jpg') no-repeat right;
+}
+.hero-subtitle {
+  font-size: 32px;
+}
+.hero-title {
+  font-size: 45px;
+  font-weight: 800px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.hero-description {
+  font-size: 18px;
+  color: #6a696b; 
+}
+.hero-social{
+  margin-top: 30px;
+}
+.social {
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  margin-right: 10px;
+  color: #fff;
+  text-align: center;
+  line-height: 41px;
+}
+.behance-bg {
+  background-color: #1869ff;
+}
+.facebook-bg {
+  background-color: #3a5898;
+}
+.instagram-bg {
+  background-color: #13578a;
+}
+.vk-bg {
+  background-color: #56acef;
+}
+.hero-buttons {
+  margin-top: 42px;
+}
+.button {
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration: none;
+  background-color: #2b2a2c;
+  border-radius: 50px;
+  padding: 20px 34px;
+  display: inline-block
+}
+.button-primary {
+  color: #fff;
+  margin-right: 17px;
+  margin-bottom: 10px;
+}
+.button-o {
+  color: #6a696b;
+  background-color: transparent;
+  border: 1px solid #6a696b;
+}
+.projects {
+  padding: 97px 0;
+}
+.project-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.project-card {
+  min-height: 370px;
+  width: 370px;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+}
+.project-card_image {
+  height: 300px;
+}
+.landing-page-1 {
+  background: url('https://wmpics.pics/di-8KNS.jpg') no-repeat center;
+  background-size: cover;
+}
+.landing-page-2 {
+  background: url('https://wmpics.pics/di-GPIZ.jpg') no-repeat center;
+  background-size: cover;
+}
+.landing-page-3 {
+  background: url('https://wmpics.pics/di-C26N.jpg') no-repeat center;
+  background-size: cover;
+}
+.landing-page-4 {
+  background: url('https://wmpics.pics/di-9TE4.jpg') no-repeat center;
+  background-size: cover;
+}
+.landing-page-5 {
+  background: url('https://wmpics.pics/di-A37J.jpg') no-repeat center;
+  background-size: cover;
+}
+.landing-page-6 {
+  background: url('https://wmpics.pics/di-X72J.jpg') no-repeat center;
+  background-size: cover;
+}
+.landing-page-7 {
+  background: url('https://wmpics.pics/di-BUQY.jpg') no-repeat center;
+  background-size: cover;
+}
+.landing-page-8 {
+  background: url('https://wmpics.pics/di-OL5T.jpg') no-repeat center;
+  background-size: cover;
+}
+.landing-page-9 {
+  background: url('https://wmpics.pics/di-RMML.jpg') no-repeat center;
+  background-size: cover;
+}
+.project-card_info {
+  padding: 19px 13px;
+}
+.project-category {
+  display: block; 
+  font-size: 12px;
+  color: #2b2a2c;
+}
+.project-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+.footer {
+  color: #8d8d8e;
+  padding: 20px 0;
+  background-color: #2b2a2c;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-text {
+  display: flex;
+  align-items: center;
+}
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-menu a {
+  font-size: 14px;
+  display: inline-block;
+  margin-right: 30px;
+}
+.footer-social {
+  display: flex;
+  justify-content: space-between;
+}
+.footer a {
+  color: #8d8d8e;
+  text-decoration: none;
+}
+.copyright {
+  padding-right: 16px;
+  margin-right: 16px;
+  border-right: 1px solid #413f41;
+  font-size: 14px;
+}
+.footer-social_link {
+  font-size: 20px;
+  margin-right: 13px;
+}
+.footer-button {
+  background-color: transparent;
+  border-radius: 50px;
+  border: 1px solid #8d8d8e;
+  padding: 8px 22px;
+}
+.portfolio {
+  background: url('http://ipic.su/img/img7/fs/main-15.1548590167.png') no-repeat;
+  margin-left: 153px;
+}
+.portfolio-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  }
+.portfolio-text-title {
+  display: flex;
+  flex-direction: column;
+  align-items: left; 
+}
+.portfolio-title {
+  font-size: 45px;
+  font-weight: 800;
+}
+.portfolio-text {
+  width: 471px;
+  font-size: 12px;
+  margin-right: 234px;
+  margin-top: 42px;
+  margin-bottom: 53px;
+}
+.portfolio-buttons {
+  margin-bottom: 160px;
+}
+
+
+@media (max-width: 1200px) {
+  .container {
+    width: 965px;
+  }
+  .project-card {
+    width: 48%;
+  }
+}
+
+@media (max-width: 992px) {
+  .menu-list {
+    font-size: 13px;
+  }
+  .name {
+    font-size: 16px;
+  }
+  .description_small {
+    font-size: 11px;
+  }
+  .container {
+    width: 760px;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-list {
+    display: none;
+  }
+  .name {
+    font-size: 16px;
+  }
+  .description_small {
+    font-size: 10px;
+  }
+  .hero {
+    padding-bottom: 650px;
+    padding-top: 30px;
+  }
+  .container {
+    width: 95%;
+  }
+  .project-card {
+    width: 95%;
+    margin: 30px auto;
+  }
+}
